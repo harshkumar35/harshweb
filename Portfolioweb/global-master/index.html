@@ -245,21 +245,20 @@
                     </label>
                   </span>
                 </div>
-                <form action="https://api.web3forms.com/submit" method="POST">
-                  <input type="hidden" name="access_key" value="bb90fdb7-a06e-4f64-a537-0f34f6e6ba16">
-                  <div class="work-request--information">
-                    <div class="information-name">
-                      <input id="name" type="text" name="name" spellcheck="false" required>
-                      <label for="name">Name</label>
-                    </div>
-                    <div class="information-email">
-                      <input id="email" type="email" name="email" spellcheck="false" required>
-                      <label for="email">Email</label>
-                    </div>
-                  </div>
-                  <textarea name="message" required style="background-color: #000; color: #fff;"></textarea>
-                  <button type="submit" style="background-color: #007bff; color: #ffffff; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">Submit Form</button>
-                </form>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0d57636a-240f-453c-84b5-e8f4775bdbca">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required style="background-color: #000; color: #fff;" required></textarea>
+            
+             <button type="submit" style="background-color: #007bff; color: #ffffff; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">Submit Form</button>
+        </form>
             </div>
           </li>
         </ul>
